@@ -5,11 +5,19 @@
     box-sizing: border-box;
 }
 
+/*body*/
+
+body{
+    background-color: rgb(240, 243, 242);
+}
+
 /*header*/
+
 .container-logo{
     height: 80px;
     margin-bottom: 40px;
     line-height: 80px;
+    background-color: white;
 }
 
 
@@ -30,9 +38,14 @@
 .container{
     width: 65%;
     margin: 0 auto;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 40px;
 }
 
 /*main*/
+
+/*main buttons*/
 
 .buttons{
     margin-bottom: 20px;
@@ -42,7 +55,9 @@ main button{
     margin-bottom: 10px;
     
 }
+
 /*buttons*/
+
 #first-button{
     font-size: 10px;
     padding: 8px;
@@ -116,3 +131,24 @@ li{
 #light-blue{
     background-color: lightblue
 }
+
+.decoration-one{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(57, 124, 57);
+    color:green;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.decoration-two{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(190, 52, 52);
+    color:red;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
