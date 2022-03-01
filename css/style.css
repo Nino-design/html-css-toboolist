@@ -1,11 +1,14 @@
-*{
+*/*reset*/
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*header*/
 .container-logo{
     height: 80px;
+    margin-bottom: 40px;
     line-height: 80px;
 }
 
@@ -14,12 +17,42 @@
 #image-logo{
     height: 50px;
     vertical-align: middle;
+    margin-left: 20px;
 }
 
 #logo-text{
-    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
     vertical-align: middle;
 }
 
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
 
+/*main*/
+
+main button{
+    margin-bottom: 10px;
+    
+}
+/*buttons*/
+#first-button{
+    font-size: 10px;
+    padding: 8px;
+    color: white;
+    border-radius: 25%;
+    background-color: rgb(33, 161, 204);
+}
+
+#second-button{
+    font-size: 10px;
+    padding: 8px;
+    color: rgb(204, 198, 198);
+    border-color:rgb(204, 198, 198) ;
+    border-radius: 25%;
+    background-color: white;
+}
 
